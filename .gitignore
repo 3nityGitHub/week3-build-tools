@@ -1,0 +1,13 @@
+#maven
+target/
+
+#Gradle
+build/
+.gradle/
+
+#Node
+node_modules/
+
+#logs
+*.log
+.DS_Store
