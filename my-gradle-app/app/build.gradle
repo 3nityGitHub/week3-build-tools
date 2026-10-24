@@ -47,7 +47,8 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             from components.java
-        }
+            artifactId = 'my-gradle-app' 
+       }
     }
     repositories {
         maven {
